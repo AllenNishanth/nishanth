@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="3" time="24.511268">
+<testcase classname="Verifying the Functional parts of Adactin Application" name="Verification of Reset Button in Search Hotel Page" time="11.17815">
+<skipped><![CDATA[When I Give valid userName and Password.....................................passed
+And I click on the login button.............................................passed
+Then I verify whether the search Hotel page is Displayed or Not with Reset Button.passed
+When I Give Valid details in the given fields...............................pending
+When I click on the Reset Button............................................skipped
+Then i Verify the all the fields should change into it's standard values....skipped
+]]></skipped>
+</testcase>
+<testcase classname="Verifying the Functional parts of Adactin Application" name="TC02:Verification of Reset Button in Search Hotel Page" time="6.785893">
+<skipped><![CDATA[When I Give valid userName and Password.....................................passed
+And I click on the login button.............................................passed
+Then I verify whether the search Hotel page is Displayed or Not with Search Hotel text.passed
+When I Give Valid details in the given fields...............................pending
+When I click on the Reset Button............................................skipped
+Then i Verify the all the fields should change into it's standard values....skipped
+]]></skipped>
+</testcase>
+<testcase classname="Verifying the Functional parts of Adactin Application" name="TC03:Verification of Reset Button in Search Hotel Page" time="6.547225">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.stepdefinition.StepDefinition.i_click_on_the_login_button(StepDefinition.java:28)&#13;&#10;&#9;at ✽.I click on the login button(file:src/test/resources/Feature/Adactin.feature:40)&#13;&#10;"><![CDATA[When I Give valid Name and Password.........................................passed
+And I click on the login button.............................................failed
+Then I verify whether the search Hotel page is Displayed or Not with Search Hotel text.skipped
+When I Give Valid details in the given fields...............................skipped
+When I click on the Reset Button............................................skipped
+Then i Verify the all the fields should change into it's standard values....skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.stepdefinition.StepDefinition.i_click_on_the_login_button(StepDefinition.java:28)
+	at ✽.I click on the login button(file:src/test/resources/Feature/Adactin.feature:40)
+]]></failure>
+</testcase>
+</testsuite>
